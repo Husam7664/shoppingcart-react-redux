@@ -1,0 +1,11 @@
+import Products from './Products'
+
+function Main(props) {
+  return (
+    <div className='main flex-80'>
+      <Products data={props.products} selectedSizes={props.selectedSizes} />
+    </div>
+  )
+}
+
+export default Main
